@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lexend+Tera:wght@100..900&display=swap");
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #d9d9d9;
   --foreground: #171717;
 }
 
