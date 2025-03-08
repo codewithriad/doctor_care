@@ -10,7 +10,7 @@ import doctor4 from "../public/image/team/doctor4.jpg";
 export default function Hero() {
   return (
     <>
-      <div className="flex flex-col-reverse lg:flex-row justify-between items-center">
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-center min-h-[80vh] lg:min-h-[90vh] ">
         {/* hero text */}
         <div className="max-w-[650px]">
           <h1 className="text-4xl font-semibold leading-snug text-gray-800">
@@ -32,7 +32,7 @@ export default function Hero() {
               href={"/"}
               className="px-6 py-2 bg-transparent text-[#007E85] rounded-md flex items-center space-x-2"
             >
-              <FaCirclePlay />
+              <FaCirclePlay className="w-[27px] h-[27px]" />
               <span className="text-black">Watch Video</span>
             </Link>
           </div>
@@ -71,7 +71,7 @@ export default function Hero() {
                 alt="doctors"
                 className="w-[27px] h-[27px] rounded-full"
               />
-              <p className="text-[12px] text-white bg-[#007E85] rounded-full p-2 h-[27px] w-[27px] flex items-center justify-center">
+              <p className="text-[12px] text-white bg-[#007E85] rounded-full p-3 h-[27px] w-[27px] flex items-center justify-center">
                 30+
               </p>
             </div>
