@@ -3,7 +3,9 @@ import Hero from "@/Components/hero";
 import Navbar from "@/Components/Navbar";
 import Results from "@/Components/Results";
 import Services from "@/Components/Services";
+import TeamMembers from "@/Components/TeamMembers";
 import WhyUs from "@/Components/WhyUs";
+// import team from "./api/team";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
         <WhyUs />
         {/* Services we're providing */}
         <Services />
+        {/* Our team members */}
+        <TeamMembers />
       </main>
     </>
   );

@@ -5,8 +5,7 @@ interface ServiceType {
   id: number;
   image: StaticImageData;
   name: string;
-  description: string; 
-  price: number;
+  description: string;
 }
 
 const Card = ({ service }: { service: ServiceType }) => {
