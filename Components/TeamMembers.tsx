@@ -18,14 +18,14 @@ const TeamMembers = () => {
   }, []);
   return (
     <>
-      <div className="container px-4 mx-auto my-[4rem]">
+      <div className="container px-4 mx-auto my-[10rem]">
         {/* section heading */}
         <div
           className="w-[480px] text-center
         mx-auto space-y-4 max-w-[480px] mb-8"
         >
           <h2 className="text-4xl font-bold text-[#007e85]">
-            Services we provide
+            Meet our team members
           </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,

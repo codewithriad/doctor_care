@@ -18,7 +18,7 @@ const Services = () => {
   }, []);
   return (
     <>
-      <div className="container px-4 mx-auto my-[4rem]">
+      <div className="container px-4 mx-auto my-[10rem]">
         {/* section heading */}
         <div
           className="w-[480px] text-center

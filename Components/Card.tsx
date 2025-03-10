@@ -11,7 +11,7 @@ interface ServiceType {
 const Card = ({ service }: { service: ServiceType }) => {
   return (
     <>
-      <div className="card max-w-96 bg-white shadow-sm rounded-4xl">
+      <div className="card max-w-96 bg-white shadow-sm rounded-4xl mt-20">
         <figure className="px-4 py-4">
           <Image
             src={service.image}

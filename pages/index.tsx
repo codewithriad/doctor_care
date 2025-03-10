@@ -4,6 +4,7 @@ import Navbar from "@/Components/Navbar";
 import Results from "@/Components/Results";
 import Services from "@/Components/Services";
 import TeamMembers from "@/Components/TeamMembers";
+import Testimonials from "@/Components/Testimonials";
 import WhyUs from "@/Components/WhyUs";
 // import team from "./api/team";
 
@@ -23,6 +24,8 @@ export default function Home() {
         <Services />
         {/* Our team members */}
         <TeamMembers />
+        {/* our testimonials */}
+        <Testimonials />
       </main>
     </>
   );
